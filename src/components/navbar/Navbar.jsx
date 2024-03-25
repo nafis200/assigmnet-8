@@ -4,28 +4,31 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const links = (
     <>
-      <li className="p-2">
+      
+      <li className="lg:ml-4 p-2">
         <NavLink
-          to=""
+          to="/"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-green-400 hover:bg-red-600"
               : isPending
-              ? "pending"
+              ? ""
               : ""
           }
         >
           Home
         </NavLink>
       </li>
+        
+
       <li className="lg:ml-4 p-2">
         <NavLink
-          to=""
+          to="/list"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-green-400 hover:bg-red-600"
               : isPending
-              ? "pending"
+              ? ""
               : ""
           }
         >
@@ -34,7 +37,7 @@ const Navbar = () => {
       </li>
       <li className="lg:ml-4 p-2">
         <NavLink
-          to=""
+          to="/page"
           className={({ isActive, isPending }) =>
             isActive
               ? "bg-green-400 hover:bg-red-600"
