@@ -12,6 +12,7 @@ import Header from './components/header/Header.jsx';
 import Errorpage from './components/error/Errorpage.jsx';
 import ListedBooks from './components/Llistedbook/ListedBooks.jsx';
 import PagetoRead from './components/pagetoread/PagetoRead.jsx';
+import Banner from './components/navbar/Banner.jsx';
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/page',
         element:<PagetoRead></PagetoRead>
+      },
+      {
+        path:'/',
+        element:<Banner></Banner>
       }
     ]
   },

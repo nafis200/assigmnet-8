@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Banner from "./Banner";
 
 const Navbar = () => {
   const links = (
@@ -98,6 +99,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
