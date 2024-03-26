@@ -2,7 +2,7 @@ import { useState } from "react";
 import Booktags from "./Booktags";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { savebooks, savewish } from "../utility/Localstorage";
+import { getBooks, getwish, savebooks, savewish } from "../utility/Localstorage";
 
 
 
@@ -13,19 +13,33 @@ const Bookdetails = ({book}) => {
     const [read,setRead] = useState(true)
     const handleread = (id)=>{
       
-      toast.success("Books Added to Read List", {
-        theme: "colored"
-      })
-      setRead(false);
-       savebooks(id)
+       const stored = getBooks()
+       const exist = stored.find(book=> book === id)
+       if(!exist){
+        toast.success("Books Added to Read List", {
+          theme: "colored"
+        })
+        setRead(false);
+         savebooks(id) 
+       }
+       else{
+           toast.warn("books already add Booklist")
+       }
+       
     }
 
-    const handleWish = (id)=>{
-         if(read){
+    const handleWish = (id1)=>{
+      const stored1 = getwish()
+      const exist1 = stored1.find(book=> book === id1)
+      
+         if(read && !exist1){
           toast.success("Books Added to Wish List", {
             theme: "colored"
           })
-           savewish(id)
+           savewish(id1)
+         }
+         else if(exist1){
+          toast.warn("books already add wishList")
          }
          else{
           toast.error("You have already add this books",{
