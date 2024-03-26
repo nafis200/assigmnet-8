@@ -1,0 +1,82 @@
+
+[
+    {
+      "bookId": 1,
+      "bookName": "Habluder jonno programming",
+      "author": "Jhankar Mahbub",
+      "image": "https://i.postimg.cc/CK1fr8ym/photo-2024-03-26-10-06-56.jpg",
+      "review": "A classic tale of justice, morality, and racial injustice.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Racial Injustice", "Legal Drama"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 2,
+      "bookName": "learning with python",
+      "author": "Tamim sharirar subin",
+      "image": "https://i.postimg.cc/qvgk9xRh/photo-2024-03-26-10-06-37.jpg",
+      "review": "A dystopian masterpiece that explores the dangers of totalitarianism.",
+      "totalPages": 328,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political", "Surveillance"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "java programming",
+      "author": "Anam bujlul haque",
+      "image": "https://i.postimg.cc/rs8TgS3p/photo-2024-03-26-10-06-46.jpg",
+      "review": "An exploration of the American Dream and its discontents.",
+      "totalPages": 180,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Jazz Age"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 4,
+      "bookName": "java Programme",
+      "author": "Anam bujlul haque",
+      "image": "https://i.postimg.cc/VsDPm02j/photo-2024-03-26-10-06-42.jpg",
+      "review": "A witty and romantic novel about love, class, and social expectations.",
+      "totalPages": 432,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Romance", "Regency Era", "Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 5,
+      "bookName": "c++ programming",
+      "author": "Nithon",
+      "image": "https://i.postimg.cc/LX2GMmTC/photo-2024-03-26-10-07-00.jpg",
+      "review": "A coming-of-age novel that captures teenage angst and rebellion.",
+      "totalPages": 224,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Coming-of-Age", "Existentialism", "Alienation"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 6,
+      "bookName": "hate kolome javascript",
+      "author": "Junayed ahamed",
+      "image": "https://i.postimg.cc/pV04gbnC/photo-2024-03-26-10-06-53.jpg",
+      "review": "A magical adventure that introduces readers to the world of Hogwarts.",
+      "totalPages": 320,
+      "rating": 4.8,
+      "category": "Fantasy",
+      "tags": ["Magic", "Wizards", "Adventure"],
+      "publisher": "Bloomsbury Publishing",
+      "yearOfPublishing": 1997
+    }
+  ]
+  
