@@ -2,6 +2,8 @@ import { useState } from "react";
 import Booktags from "./Booktags";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { savebooks, savewish } from "../utility/Localstorage";
+
 
 
 
@@ -10,17 +12,20 @@ const Bookdetails = ({book}) => {
 
     const [read,setRead] = useState(true)
     const handleread = (id)=>{
+      
       toast.success("Books Added to Read List", {
         theme: "colored"
       })
       setRead(false);
+       savebooks(id)
     }
 
-    const handleWish = ()=>{
+    const handleWish = (id)=>{
          if(read){
           toast.success("Books Added to Wish List", {
             theme: "colored"
           })
+           savewish(id)
          }
          else{
           toast.error("You have already add this books",{
@@ -63,7 +68,7 @@ const Bookdetails = ({book}) => {
               
               <div className=" flex gap-5">
               <button onClick={()=>handleread(bookId)} className="btn p-4 text-center mt-8 w-[100px]">Read</button>
-          <button onClick={handleWish} className="btn p-4 text-center bg-blue-500 mt-8 w-[100px] text-white">Wishlist</button>
+          <button onClick={()=>handleWish(bookId)} className="btn p-4 text-center bg-blue-500 mt-8 w-[100px] text-white">Wishlist</button>
          
               </div>
 
