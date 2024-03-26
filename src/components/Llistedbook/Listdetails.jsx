@@ -10,11 +10,11 @@ const Listdetails = ({da}) => {
     return (
         <div className="mt-8 flex">
           
-          <div className="flex-1">
+        <div className="flex-1">
             <img src={image} className="w-[300px]" alt="" />
           </div>
 
-          <div className=" space-y-6">
+          <div className=" space-y-6 card bg-base-100">
             <h1 className="text-2xl font-extralight">{bookName}</h1>
             <h1 className="font-extralight">By: <span className=" font-bold text-xl">{author}</span> </h1>
             <div className="flex justify-between">
@@ -43,7 +43,6 @@ const Listdetails = ({da}) => {
             </div>
 
           </div>
-
         </div>
     );
 };
