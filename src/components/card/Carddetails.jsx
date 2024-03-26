@@ -6,11 +6,17 @@ import { NavLink } from "react-router-dom";
 const Carddetails = () => {
     const details = useLoaderData();
     const {id} = useParams()
-    console.log(details,id);
+    const idINt = parseInt(id)
+    
+    const books = details.filter(book => book.bookId === idINt )
+    
     return (
         <div>
-            <h1>hellow details</h1>
-           
+
+          <div>
+            
+            
+        </div>  
 
         </div>
     );
