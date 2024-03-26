@@ -33,6 +33,13 @@ const Bookdetails = ({book}) => {
                 <p className="flex justify-start"> <span className="font-extralight">Rating: </span> <span>  {rating}</span> </p>                
 
                </div>
+              
+              <div className=" flex gap-5">
+              <button className="btn p-4 text-center mt-8 w-[100px]">Read</button>
+          <button className="btn p-4 text-center bg-blue-500 mt-8 w-[100px] text-white">Wishlist</button>
+         
+              </div>
+
            </div>
              
          </section>  
@@ -42,3 +49,5 @@ const Bookdetails = ({book}) => {
 };
 
 export default Bookdetails;
+
+
