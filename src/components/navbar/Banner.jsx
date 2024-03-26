@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Card from '../card/Card';
+
 
 const Banner = () => {
     return (
@@ -21,6 +23,7 @@ const Banner = () => {
 
            </div>
            </main>
+             <Card></Card>
          </div>
     );
 };
