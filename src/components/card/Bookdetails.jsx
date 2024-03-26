@@ -95,5 +95,3 @@ const Bookdetails = ({book}) => {
 };
 
 export default Bookdetails;
-
-

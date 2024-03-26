@@ -1,0 +1,82 @@
+
+[
+    {
+      "bookId": 1,
+      "bookName": "Habluder jonno programming",
+      "author": "Jhankar Mahbub",
+      "image": "https://i.postimg.cc/CK1fr8ym/photo-2024-03-26-10-06-56.jpg",
+      "review": "A classic books for all begining programmer just awesome and nice books.this book is really helpful for begineers progrmmers.you can concept clearly from this books.In this book, we'll take you on a journey through the fundamentals of Python programming, starting with the basics and gradually building up to more advanced topics.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Racial Injustice", "Legal Drama"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 2,
+      "bookName": "learning with python",
+      "author": "Tamim sharirar subin",
+      "image": "https://i.postimg.cc/qvgk9xRh/photo-2024-03-26-10-06-37.jpg",
+      "review": "Python is a versatile and powerful programming language that has gained immense popularity in recent years due to its simplicity, readability, and vast ecosystem of libraries and frameworks. Whether you're a seasoned developer or just starting out, Python offers a friendly and accessible entry point into the world of programming.In this book, we'll take you on a journey through the fundamentals of Python programming, starting with the basics and gradually building up to more advanced topics. By the end of this book, you'll have a solid understanding of Python syntax, data structures, functions, object-oriented programming, and much more.",
+      "totalPages": 328,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political", "Surveillance"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "java programming",
+      "author": "Anam bujlul haque",
+      "image": "https://i.postimg.cc/rs8TgS3p/photo-2024-03-26-10-06-46.jpg",
+      "review": "Java is a powerful and versatile programming language that has become a cornerstone of modern software development. With its robust features, platform independence, and vast ecosystem of libraries and frameworks, Java is widely used in a variety of applications, ranging from mobile apps to enterprise systems.In this book, we'll guide you through the essentials of Java programming, starting from the basics and gradually progressing to more advanced concepts. Whether you're new to programming or looking to expand your skills, this book will provide you with a comprehensive understanding of Java syntax, object-oriented programming principles, and practical techniques for building real-world applications.",
+      "totalPages": 180,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Jazz Age"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 4,
+      "bookName": "java Programme",
+      "author": "Anam bujlul haque",
+      "image": "https://i.postimg.cc/VsDPm02j/photo-2024-03-26-10-06-42.jpg",
+      "review": "Java is a powerful and versatile programming language that has become a cornerstone of modern software development. With its robust features, platform independence, and vast ecosystem of libraries and frameworks, Java is widely used in a variety of applications, ranging from mobile apps to enterprise systems.In this book, we'll guide you through the essentials of Java programming, starting from the basics and gradually progressing to more advanced concepts. Whether you're new to programming or looking to expand your skills, this book will provide you with a comprehensive understanding of Java syntax, object-oriented programming principles, and practical techniques for building real-world applications.",
+      "totalPages": 432,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Romance", "Regency Era", "Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 5,
+      "bookName": "c++ programming",
+      "author": "Nithon",
+      "image": "https://i.postimg.cc/LX2GMmTC/photo-2024-03-26-10-07-00.jpg",
+      "review": "C++ is a powerful and flexible programming language that has been widely used for decades in various domains such as system programming, game development, scientific computing, and more. With its rich feature set, including support for object-oriented programming, generic programming, and low-level memory manipulation, C++ provides developers with a high degree of control and performance.In this book, we will delve into the intricacies of C++ programming, from the basics to advanced techniques, equipping you with the knowledge and skills needed to become proficient in the language. Whether you're a novice programmer or an experienced developer looking to deepen your understanding of C++, this book will serve as a comprehensive guide to mastering the language.",
+      "totalPages": 224,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Coming-of-Age", "Existentialism", "Alienation"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 6,
+      "bookName": "hate kolome javascript",
+      "author": "Junayed ahamed",
+      "image": "https://i.postimg.cc/pV04gbnC/photo-2024-03-26-10-06-53.jpg",
+      "review": "JavaScript is the programming language of the web, allowing developers to create dynamic and interactive experiences for users across a wide range of devices and platforms. From enhancing static web pages to building complex web applications, JavaScript plays a crucial role in modern web development.In this book, we'll take you on a journey through the world of JavaScript, starting with the basics and gradually delving into more advanced topics. Whether you're a beginner looking to learn the fundamentals or an experienced developer seeking to deepen your understanding, this book will provide you with the knowledge and skills you need to become proficient in JavaScript programming. Let's begin by exploring the origins of JavaScript and understanding its role in shaping the modern web landscape.",
+      "totalPages": 320,
+      "rating": 4.8,
+      "category": "Fantasy",
+      "tags": ["Magic", "Wizards", "Adventure"],
+      "publisher": "Bloomsbury Publishing",
+      "yearOfPublishing": 1997
+    }
+  ]
+  

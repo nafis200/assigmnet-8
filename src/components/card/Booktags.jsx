@@ -1,6 +1,4 @@
 
-
-
 const Booktags = ({data}) => {
     return (
         <div>
