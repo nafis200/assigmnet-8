@@ -1,5 +1,6 @@
 import { Navigate, useLoaderData, useNavigate, useParams } from "react-router";
 import { NavLink } from "react-router-dom";
+import Bookdetails from "./Bookdetails";
 
 
 
@@ -9,15 +10,13 @@ const Carddetails = () => {
     const idINt = parseInt(id)
     
     const books = details.filter(book => book.bookId === idINt )
+
     
     return (
         <div>
-
-          <div>
-            
-            
-        </div>  
-
+          {
+             books.map(book => <Bookdetails key={book.id} book={book} ></Bookdetails> )
+          }
         </div>
     );
 };
