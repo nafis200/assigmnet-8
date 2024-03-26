@@ -1,14 +1,17 @@
 
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Card from '../card/Card';
+import React, { useEffect } from 'react';
+import { NavLink, useLoaderData } from 'react-router-dom';
+import Cards from '../cards/Cards';
+
 
 
 const Banner = () => {
+    
+   const lod = useLoaderData();
+   
     return (
         <div>
-            <h1>hellow</h1>
-
+            
             <main className="container mx-auto">
            <div className="h-[500px]  bg-gray-200 w-full flex justify-between">
            
@@ -23,7 +26,7 @@ const Banner = () => {
 
            </div>
            </main>
-             <Card></Card>
+             <Cards lod={lod}></Cards>
          </div>
     );
 };
