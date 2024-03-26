@@ -59,6 +59,19 @@ const ListedBooks = () => {
           setDisplay(dataBooks)
           
        } 
+       else{
+        let dataBooks = [...data]
+        if(check === 'rating'){
+            dataBooks.sort((a,b)=> b.rating - a.rating);
+        }
+        else if(check === 'pages'){
+            dataBooks.sort((a,b)=>b.totalPages - a.totalPages);
+        }
+        else if('year'){
+            dataBooks.sort((a,b)=>b.yearOfPublishing-a.yearOfPublishing )
+        }
+        setDisplay1(dataBooks)
+       }
     }
  
 
