@@ -43,23 +43,24 @@ const ListedBooks = () => {
     }
   }, []);
 
+  
+    const showall = (check) =>{
+       if(tog){
+          let dataBooks = [...data]
+          if(check === 'rating'){
+              dataBooks.sort((a,b)=> b.rating - a.rating);
+          }
+          setDisplay(dataBooks)
+          console.log(dataBooks);
+          console.log(display);
+       } 
+    }
  
-  
-
-
-
-  
-
-  const showall = (check) =>{
-     if(tog){
-        
-     } 
-  }
-  
 
 
   return (
     <div>
+
       <h1 className="text-4xl bg-gray-200 p-5">Books</h1>
 
       <section>
