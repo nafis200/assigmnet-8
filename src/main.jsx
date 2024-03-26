@@ -13,6 +13,7 @@ import Errorpage from './components/error/Errorpage.jsx';
 import ListedBooks from './components/Llistedbook/ListedBooks.jsx';
 import PagetoRead from './components/pagetoread/PagetoRead.jsx';
 import Banner from './components/navbar/Banner.jsx';
+import Carddetails from './components/card/Carddetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
         path:'/',
         element:<Banner></Banner>,
         loader: ()=>fetch('books.json')
+      },
+      {
+        path:'/detail/:id',
+        element:<Carddetails></Carddetails>,
+        loader:()=>fetch('books.json')
       }
     ]
   },

@@ -1,13 +1,17 @@
 
 import { FaRegStar } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Singlecard = ({data}) => {
-    const {bookName,author,image,rating} = data;
+    const {bookName,author,image,rating,bookId} = data;
+    
+    
     return (
         <div>
 
            {/* card1 */}
-      <div className="card w-96 bg-base-100 shadow-xl">
+          <NavLink to ={`/detail/${bookId}`}>
+          <div className="card w-96 bg-base-100 shadow-xl">
         <figure>
           <img
             src={image}
@@ -37,6 +41,8 @@ const Singlecard = ({data}) => {
           </div>
         </div>
       </div>  
+          </NavLink>
+        
 
         </div>
     );
