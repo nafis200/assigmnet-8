@@ -4,6 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoMdPeople } from "react-icons/io";
 
 import { MdOutlineFindInPage } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 const Listdetails = ({da}) => {
     const {bookId,bookName,author,image,review,totalPages,rating,category,publisher,yearOfPublishing,tags} = da
@@ -38,7 +39,7 @@ const Listdetails = ({da}) => {
 
                 <button className="btn rounded-lg bg-sky-400 ">Rating:{rating}</button>
 
-                <button className="btn bg-green-400 text-white">View Details</button>
+                <NavLink to={`/detail/${bookId}`}> <button className="btn bg-green-400 text-white">View Details</button> </NavLink>
 
             </div>
 
