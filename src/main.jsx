@@ -14,6 +14,7 @@ import ListedBooks from './components/Llistedbook/ListedBooks.jsx';
 import PagetoRead from './components/pagetoread/PagetoRead.jsx';
 import Banner from './components/navbar/Banner.jsx';
 import Carddetails from './components/card/Carddetails.jsx';
+import Booklinks from './components/booklinks/Booklinks.jsx';
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         path:'/detail/:id',
         element:<Carddetails></Carddetails>,
         loader:()=>fetch('../public/books.json')
+      },
+      {
+        path:'/booklinks',
+        element:<Booklinks></Booklinks>
       }
     ]
   },
