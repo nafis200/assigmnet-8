@@ -15,6 +15,7 @@ import PagetoRead from './components/pagetoread/PagetoRead.jsx';
 import Banner from './components/navbar/Banner.jsx';
 import Carddetails from './components/card/Carddetails.jsx';
 import Booklinks from './components/booklinks/Booklinks.jsx';
+import Video from './components/video/Video.jsx';
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path:'/booklinks',
         element:<Booklinks></Booklinks>
+      },
+      {
+        path:'/video',
+        element:<Video></Video>
       }
     ]
   },

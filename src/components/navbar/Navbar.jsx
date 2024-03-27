@@ -65,6 +65,21 @@ const Navbar = () => {
           BookLinks
         </NavLink>
       </li>
+
+      <li className="lg:ml-4 p-2">
+        <NavLink
+          to="/video"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "bg-green-400 hover:bg-red-600"
+              : isPending
+              ? "pending"
+              : ""
+          }
+        >
+          videoLinks
+        </NavLink>
+      </li>
     </>
   );
 
