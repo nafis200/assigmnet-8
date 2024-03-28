@@ -123,7 +123,7 @@ const Navbar = () => {
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">{links}</ul>
           </div>
-          <div className="navbar-end gap-4">
+          <div className="lg:navbar-end gap-4">
           <button className="btn p-3 bg-green-400">Sign in</button>
               <button className="btn p-3 bg-sky-400">Sign up</button>
           </div>

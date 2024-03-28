@@ -6,7 +6,7 @@ const Video = () => {
     return (
         <div className=''>
         
-        <div className='mt-10 grid grid-cols-2'>
+        <div className='mt-10 lg:grid lg:grid-cols-2 grid-cols-1'>
         <div>
             <h1 className="text-2xl flex ml-40 mb-5 font-bold"> Web_development</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/JUwePydwbUI?si=Ph9FTWuvkeVeUKQb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -31,4 +31,6 @@ Front-end development involves creating the user interface and experience of web
 };
 
 export default Video;
+
+
 

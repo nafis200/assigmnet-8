@@ -53,23 +53,25 @@ const Bookdetails = ({book}) => {
     return (
         <div className="mt-20">
           
-         <section className="flex gap-4">
+         <section className="lg:flex lg:gap-4">
 
-           <div className="flex-1">
-              <img src={image} alt="" />
+           <div className="lg:flex-1">
+              <img src={image} className="lg:w-[350px] lg:h-[500px] w-[200px] h-[200px] ml-10 lg:ml-0" alt="" />
            </div>   
 
            <div className=" space-y-2 flex-1">
-             <p className="text-3xl">{bookName}</p>
+             <p className="lg:text-3xl mt-5 lg:mt-0">{bookName}</p>
              <p className="font-extralight">By:{author}</p>
              <hr />
              <p className="font-extralight p-3">{category}</p>
              <hr />
-             <p> <span className="text-2xl">Review:</span>{review} </p>
-             <p className="flex"><span className="text-2xl font-bold mr-5 mt-2 mb-5">Tags: </span> <span className="flex font-extralight gap-5 items-center mt-1">
+             <p> <span className="lg:text-2xl grid grid-cols-1">Review:</span>{review} </p>
+             <p className="lg:flex"><span className="text-2xl font-bold mr-5 mt-2 mb-5">Tags: </span> <span className="lg:flex font-extralight gap-5 items-center mt-1 space-y-4">
+                 
                  {
                     tags.map(data=> <Booktags data={data}></Booktags>)
                  }
+                 
                 </span></p>
                 <hr />
                <div className=" space-y-3">

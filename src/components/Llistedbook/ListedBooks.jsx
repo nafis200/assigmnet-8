@@ -82,9 +82,9 @@ const ListedBooks = () => {
       <h1 className="text-4xl bg-gray-200 p-5">Books</h1>
 
       <section>
-        <div className="dropdown dropdown-bottom">
-          <div tabIndex={0} role="button" className="btn m-1 bg-green-400 text-center w-[100px] p-2 text-white">
-            <span className="flex items-center gap-2">Sort By <IoIosArrowDropdown className="text-2xl"></IoIosArrowDropdown> </span>
+        <div className="dropdown dropdown-bottom ">
+          <div tabIndex={0} role="button" className="btn m-1 bg-green-400 text-center lg:w-[100px] p-2 text-white">
+            <span className=" flex items-center gap-2">Sort By <IoIosArrowDropdown className="lg:text-2xl"></IoIosArrowDropdown> </span>
           </div>
           <ul
             tabIndex={0}
@@ -103,16 +103,16 @@ const ListedBooks = () => {
         </div>
       </section>
 
-     <section className="flex gap-5 mb-3">
+     <section className="flex gap-5 mb-3 mt-10 lg:mt-0">
         <div onClick={()=>setTog(!tog)}>
             <NavLink className={
-                tog === true && 'bg-green-500 p-4'
+                tog === true && 'bg-green-500 lg:p-4'
             }> <span className="">Read books</span> </NavLink>
         </div>
 
         <div onClick={()=>setTog(!tog)}>
             <NavLink className={
-                tog === false && 'bg-green-500 p-4'
+                tog === false && 'bg-green-500 lg:p-4'
             }>WishList books</NavLink>
         </div>
      </section>
